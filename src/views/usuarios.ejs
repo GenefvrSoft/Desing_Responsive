@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/estilos.css">
+  <title>Editorial El Clima</title>
+</head>
+
+<body>
+  <header>
+    <img src="./css/imgs/Comunidad.jpg" alt="Logo" height="50" width="176">
+    <nav>
+      <ul>
+        <li class="listanav">
+          <a href="./index.html">Inicio</a>
+        </li>
+        <li class="listanav">
+          <a href="./segunda.html">Quienes somos</a>
+        </li>
+        <li class="listanav">
+          <a href="./tercera.html">Otras iniciativas</a>
+        </li>
+        <li class="listanav">
+          <a href="./cuarta.html" target="_blank">Mas informacion</a>
+        </li>
+        <li class="listanav">
+          <a href="/">Registrate y apoyanos</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+  <div id="Banner">
+    <img src="./css/imgs/paisaje.jpg" alt="Banner" height="500px" width="100%">
+  </div>
+  <main class="main_formulario">
+    <article class="articulo-formulario">
+      <center>
+        <h1>Registrate y forma parter de nuestro movimiento</h1>
+      </center>
+      <p>Completa los datos y pasa a formar parte de el movimiento por el cambio climatico</p>
+      <div class="formulario">
+        <form action="/guardar" method="post">
+          <div class="campo">Nombres:&nbsp;<input class="ingreso" type="text" id="nombres" name="nombres" placeholder="Ingrese Nombres" required>
+          </div>
+
+          <div class="campo">Apellidos:<input class="ingreso" type="text" id="apellidos" name="apellidos" placeholder="Ingrese Apellidos" required>
+          </div>
+          <div class="campo">Telefono:&nbsp;&nbsp;<input class="ingreso" type="text" maxlength="11" id="telefono" placeholder="Ingrese Telefono"
+              name="telefono" required></div>
+          <div class="campo">Correo:&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input class="ingreso" type="text" id="correo" placeholder="Ingrese Correo"
+              name="correo" required></div>
+          <input type="submit" value="registrate" class="boton campo">
+        </form>
+      </div>
+    </article>
+  </main>
+  <div>
+    <img src="./css/imgs/footer.jpg" alt="FondoFooter" width="100%" height="auto">
+    <footer id="footer">
+      <ul>
+        <li>editorialelclima@gmail.com</li>
+        <li>(+51) 219 458 963</li>
+      </ul>
+    </footer>
+  </div>
+</body>
+
+</html>
